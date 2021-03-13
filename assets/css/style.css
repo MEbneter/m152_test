@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#content {
+    background-color: #7e9dca;
+    min-height: 100vh;
+    padding: 10%;
+}
+.titel {
+    font-family: ;
+    color: goldenrod;
+    margin-bottom: 35px;;
+}
+.line {
+    max-width: 70px;
+    height: 1px;
+    background-color: black;
+    border: 1px solid black;
+}
+svg {
+    width: 32px;
+    height: 26px;
+}
