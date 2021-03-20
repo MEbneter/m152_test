@@ -3,21 +3,42 @@
     padding: 0;
 }
 #content {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     background-color: #7e9dca;
     min-height: 100vh;
     padding: 10%;
 
 }
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 44px;
+    font-weight: bolder;
+    margin-top: 44px;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    margin:auto;
+    line-height: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 #s1 {
-    min-height: 100vh;
-    max-width: 33vh;
+    font-family: 'Merriweather', serif;
+    min-height: 80vh;
     display: block;
     float: left;
     margin-left:15px;
     margin-right: 15px;
 }
 .titel {
-    color: goldenrod;
+    color: red;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
     margin-bottom: 35px;;
 }
 .line {
@@ -29,4 +50,7 @@
 svg {
     width: 32px;
     height: 26px;
+}
+.icon {
+    width: 15%;
 }
